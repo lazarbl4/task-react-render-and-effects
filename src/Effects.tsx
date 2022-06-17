@@ -2,7 +2,6 @@ import { subscribe, unsubscribe } from './resources/API';
 import { useEffect, useState } from 'react';
 
 export function Effects(props: { sourceId: string }) {
-    return <div>123</div>;
     const [data, setMessage] = useState(-1);
 
     const callback = (mess: number) => {
